@@ -1,5 +1,4 @@
 Flask==0.9
-Flask-Alembic==0.1
 Flask-Assets==0.9.dev
 Flask-Bootstrap==2.3.0-2
 Flask-Failsafe==0.1
