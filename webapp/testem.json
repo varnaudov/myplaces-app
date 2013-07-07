@@ -1,0 +1,16 @@
+{
+  "framework": "mocha",
+  "src_files": [
+    "static/lib/jquery-1.7.2.min.js",
+    "static/lib/underscore-min.js",
+    "static/lib/backbone-min.js",
+    "static/js/models/*.js",
+    "static/js/views/*.js",
+    "static/js/*.js",
+    "tests/lib/chai.js",
+    "tests/lib/sinon-chai.js",
+    "tests/lib/sinon-1.5.2.js",
+    "static/tmpl_include/*.html",
+    "tests/*.js"
+ ]
+}

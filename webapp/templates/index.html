@@ -1,0 +1,32 @@
+{% extends "bootstrap_responsive.html" %}
+
+{% block body_content %}
+	<div class="header"></div>
+	<div class="container">
+	    <div class="row-fluid">
+	        <div id="content" class="span12>"></div>
+	    </div>
+
+	    <footer class="footer">
+	        <p class="pull-left"><a href="#">Go Home</a></p>
+	    </footer>
+	</div>
+
+	<script src="/static/lib/jquery-1.7.2.min.js"></script>
+	<script src="/static/lib/underscore-min.js"></script>
+	<script src="/static/lib/backbone-min.js"></script>
+
+	<!--  bring in google api key from config -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key={{config.API_KEY}}&sensor=true"></script>
+
+		<script src="/static/js/validation.js"></script>
+		<script src="/static/js/models/myplacemodel.js"></script>
+		<script src="/static/js/views/paginator.js"></script>
+		<script src="/static/js/views/header.js"></script>
+		<script src="/static/js/views/placelistitemview.js"></script>
+		<script src="/static/js/views/placelist.js"></script>
+		<script src="/static/js/views/placedetails.js"></script>
+		<script src="/static/js/views/placesearchlist.js"></script>
+		<script src="/static/js/views/map.js"></script>
+		<script src="/static/js/main.js"></script>
+{% endblock %}

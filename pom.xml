@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>org.awesome</groupId>
+        <artifactId>uber_challenge</artifactId>
+        <version>0.1</version>
+        <packaging>pom</packaging>
+
+	<!--
+
+	A maven project, just for kicks. Also useful, if we are to use a CI server (like Jenkins) that is java friendly
+	Requires you have maven bin in your PATH and JAVA_HOME / MAVEN_HOME defined
+
+	Otherwise, you are free to run the ./setup.py scripts in each directory 
+
+	This creates a maven reactor for the modules below
+	running mvn install will go through the maven phases (including tests) for each module
+	and install the necessary .egg bundles in the necessary order ( we could also use dependencies if needed )
+
+	-->
+
+        <modules>
+                <module>tools</module>
+                <module>model</module>
+                <module>services</module>
+		<module>webapp</module>
+        </modules>
+</project>
