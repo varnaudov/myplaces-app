@@ -125,6 +125,11 @@ For standalone, just build the project, and:
 
 You can also use foreman with the Procfile provided
 
+Demo:
+-----------
+Visit my<guesswhat>places.herokuapp.com :-)
+
+
 To Do
 ---------------
 Things that are still (IMHO) desired for a larger production app, not yet in (need time):
