@@ -36,10 +36,10 @@ class WebappProductionConfiguration(ProductionConfiguration):
     ASSETS_USE_CDN = True
 
     # Do not minify assets in debug; h5 boilerplate ease of use
-    BOOTSTRAP_USE_MINIFIED = False
+    BOOTSTRAP_USE_MINIFIED = True
     BOOTSTRAP_JQUERY_VERSION = '1.7.2'
     BOOTSTRAP_HTML5_SHIM = True
-    BOOTSTRAP_USE_CDN = False
+    BOOTSTRAP_USE_CDN = True
 
     # google api key
     API_KEY = 'AIzaSyCoOr2ufJVOqGmUOHi8ABmbcCqwwz3W9rI'
