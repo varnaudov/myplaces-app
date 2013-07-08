@@ -46,13 +46,16 @@ To build the project, you may either use:
 * Java/Maven (or CI) users can execute the following command from root
 
    $ mvn install
+
    It will build the the tools,model,services,webapp in the proper order and run all tests
 
 * If you prefer, you can enter each module and use setup-tools to test or install it, such as:
+
    $ cd services
    $ python setup.py [test,install]
 
 * You may also use foreman
+
    $ foreman start
 
 ### Creating the database
@@ -68,6 +71,7 @@ To recreate the db, you may use:
     $ python db_recreate.py
 
 ### Running for development
+
     $ cd webapp
     $ python app.py
 
@@ -98,20 +102,25 @@ Testing:
 Some sample tests are done on the service level and the webapp level, demonstrating use of python and JS tests
 
 For nose tests (py), check out here:
+
    $ <app_root>/services/test/myplace_service_tests.py
 
 You can run them by
+
    $ cd services
    $ python setup.py test
 
 For javascript tests, check out here:
+
    $ <app_root>/webapp/tests/test_model_and_app.js
 
 You can run them all by:
+
    $ cd webapp
    $ testem ci
 
 Or run them for TDD by:
+
    $ testem
 
 Deployment:
@@ -127,7 +136,7 @@ You can also use foreman with the Procfile provided
 
 Demo:
 -----------
-Visit my<guesswhat>places.herokuapp.com :-)
+Visit my[guesswhat]places.herokuapp.com :-)
 
 
 To Do
