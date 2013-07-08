@@ -1,6 +1,4 @@
 '''
-Created on Jun 21, 2013
-
 @author: varnaudov
 
 This is the webapp launcher; orchestrates blueprint registration for backend/frontend,
@@ -39,7 +37,6 @@ Bootstrap(frontend)
 @frontend.route('/')
 def index():
     return render_template('index.html', config=appConfig)
-    # return "gruh"
 
 # initialize the service
 db.init_app(frontend)
@@ -53,5 +50,5 @@ if __name__ == '__main__':
     Start the app in development / or other testing mode through the entrypoint
     """
     print "The current config is: {}".format(appConfig.DEBUG)
-    run_simple('192.168.1.8', 5000, frontend,
+    run_simple('localhost', 5000, frontend,
                use_reloader=True, use_debugger=True, use_evalex=True)

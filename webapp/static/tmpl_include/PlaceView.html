@@ -1,23 +1,33 @@
 <div class="row">
 
-	<form class="form-inline span12">
+	<form class="form-horizontal span12">
+
 		<div class="control-group error">
 			<span class="control-group error help-inline"></span>
 		</div>
-
-		<label for="name" class="control-label">Name:</label>
-		<input type="text" class="input-medium" required id="name" name="name" placeholder="Nickname" value="<%= name %>" />
-		<label for="addresslbl" required class="control-label">Address:</label>
-		<div class="input-append">
-			<input type="text" id="address" class="input-xlarge" name="address" placeholder="Your Favourite Spot" value="<%= address %>" />
-			<a href="#" class="btn btn-primary locate">Find</a>
-		</div>
-
-		<a href="#" class="btn btn-success save">Save</a>
-		<a href="#deleteConfirm" role="button" class="btn btn-danger" data-toggle="modal">Delete</a>
-
-		<div class="alert alert-success" style="padding:5px; display: none">
-			<b>Saved!</b> Your pick-up location has been saved
+				<div class="control-group">
+					<label for="name" class="control-label">Name:</label>
+					<div class="controls">
+						<input type="text" class="input-medium" required id="name" name="name" placeholder="Nickname" value="<%= name %>" />
+					</div>
+				<div class="control-group">
+					<label for="address" required class="control-label">Address:</label>
+					<div class="controls">
+						<div class="input-append">
+						<input type="text" id="address" class="input-xlarge" name="address" placeholder="Your Favourite Spot" value="<%= address %>" />
+						<a href="#" class="btn btn-primary locate">Find</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="control-group">
+			<div class="alert alert-success" style="padding:5px; display: none">
+				<b>Saved!</b> Your pick-up location has been saved
+			</div>
+			<div class="controls">
+				<a href="#" class="btn btn-success save">Save</a>
+				<a href="#deleteConfirm" role="button" class="btn btn-danger" data-toggle="modal">Delete</a>
+			</div>
 		</div>
 
 		<!-- Ask for confirmation -->
@@ -34,11 +44,9 @@
 		    <button class="btn btn-danger delete">Delete</button>
 		  </div>
 		</div>
-
 		<p>
 		<div id="googleMapBox" style="width:100%; height: 250px"></div>
 	</form>
-
 </div>
 
 
