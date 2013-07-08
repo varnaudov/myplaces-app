@@ -45,18 +45,18 @@ To build the project, you may either use:
 
 * Java/Maven (or CI) users can execute the following command from root
 
-   $ mvn install
+    $ mvn install
 
    It will build the the tools,model,services,webapp in the proper order and run all tests
 
 * If you prefer, you can enter each module and use setup-tools to test or install it, such as:
 
-   $ cd services
-   $ python setup.py [test,install]
+    $ cd services
+    $ python setup.py [test,install]
 
 * You may also use foreman
 
-   $ foreman start
+    $ foreman start
 
 ### Creating the database
 
@@ -103,25 +103,25 @@ Some sample tests are done on the service level and the webapp level, demonstrat
 
 For nose tests (py), check out here:
 
-   $ <app_root>/services/test/myplace_service_tests.py
+    $ <app_root>/services/test/myplace_service_tests.py
 
 You can run them by
 
-   $ cd services
-   $ python setup.py test
+    $ cd services
+    $ python setup.py test
 
 For javascript tests, check out here:
 
-   $ <app_root>/webapp/tests/test_model_and_app.js
+    $ <app_root>/webapp/tests/test_model_and_app.js
 
 You can run them all by:
 
-   $ cd webapp
-   $ testem ci
+    $ cd webapp
+    $ testem ci
 
 Or run them for TDD by:
 
-   $ testem
+    $ testem
 
 Deployment:
 -----------
@@ -129,8 +129,8 @@ Deployment:
 Deployment is done using gunicorn (Demo is hosted on heroku)
 
 For standalone, just build the project, and:
-   $ cd webapp
-   $ gunicorn app:frontend
+    $ cd webapp
+    $ gunicorn app:frontend
 
 You can also use foreman with the Procfile provided
 
