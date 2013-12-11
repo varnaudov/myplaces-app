@@ -54,13 +54,13 @@ class MyPlaceService():
         It might be better to move this to the tools package, as it can be reused, but will need more
         configuration for usage by different services (TODO)
         """
-        if not config.DEBUG:
-            file_handler = RotatingFileHandler('logs/myservice.log', 'a', 1 * 1024 * 1024, 10)
-            file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'))
-            self.app.logger.setLevel(logging.INFO)
-            file_handler.setLevel(logging.INFO)
-            self.app.logger.addHandler(file_handler)
-            self.app.logger.info("App hosting logging started...")
+        #if not config.DEBUG:
+        #    file_handler = RotatingFileHandler('logs/myservice.log', 'a', 1 * 1024 * 1024, 10)
+        #    file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'))
+        #    self.app.logger.setLevel(logging.INFO)
+        #    file_handler.setLevel(logging.INFO)
+        #    self.app.logger.addHandler(file_handler)
+        #    self.app.logger.info("App hosting logging started...")
 
         if config.HOSTING is not None:
             stream_handler = logging.StreamHandler()
