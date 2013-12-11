@@ -1,7 +1,7 @@
 myplaces-app
 =============
 
-An app for tracking my favourite locations built with flask, and backbone.js
+An app for tracking my Santa sightings locations built with flask, and backbone.js
 
 Project features include:
 

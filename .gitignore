@@ -18,3 +18,5 @@ local-settings
 settings
 dist
 *.log
+.idea
+santa_env
