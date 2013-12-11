@@ -24,5 +24,3 @@ santa_env
 *.log
 
 *.log
-
-webapp/logs/myservice.log
