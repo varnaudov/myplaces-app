@@ -18,9 +18,7 @@ local-settings
 settings
 dist
 *.log
-*/*.log
 .idea
 santa_env
 *.log
 
-*.log
