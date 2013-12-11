@@ -1,4 +1,4 @@
-2013-07-07 14:15:46,782 INFO: App hosting logging started... [in /Users/varnaudov/dev/src/proj/p1/eatpy/proj_env/lib/python2.7/site-packages/eatpy_services-0.1-py2.7.egg/org/awesome/services/myplace_service.py:65]
+2013-07-01 14:15:46,782 INFO: App hosting logging started... [in /Users/varnaudov/dev/src/proj/p1/eatpy/proj_env/lib/python2.7/site-packages/eatpy_services-0.1-py2.7.egg/org/awesome/services/myplace_service.py:65]
 2013-07-07 14:15:46,801 INFO: MyService blueprint created [in /Users/varnaudov/dev/src/proj/p1/eatpy/proj_env/lib/python2.7/site-packages/eatpy_services-0.1-py2.7.egg/org/awesome/services/myplace_service.py:50]
 2013-07-07 14:32:35,186 INFO: App hosting logging started... [in /Users/varnaudov/dev/src/proj/p1/eatpy/proj_env/lib/python2.7/site-packages/eatpy_services-0.1-py2.7.egg/org/awesome/services/myplace_service.py:65]
 2013-07-07 14:32:35,209 INFO: MyService blueprint created [in /Users/varnaudov/dev/src/proj/p1/eatpy/proj_env/lib/python2.7/site-packages/eatpy_services-0.1-py2.7.egg/org/awesome/services/myplace_service.py:50]
