@@ -64,7 +64,7 @@ You will need to configure your database settings and then perform the required 
 For development purposes, sqlite is used, whereas in production, the current config grabs the DATABASE_URI os env var.
 
     $ cd webapp
-    $ python db_create.py
+    $ python webapp/db_create.py
 
 To recreate the db, you may use:
 
